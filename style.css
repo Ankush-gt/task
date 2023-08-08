@@ -1,0 +1,146 @@
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding: 10px;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Product Cards */
+  .product-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+  }
+  
+  /* Product Details */
+  .product-details {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Contact Us */
+  .contact-us {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .enquiry-form input,
+  .enquiry-form textarea {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .enquiry-form button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Google Map */
+  .google-map {
+    margin-top: 20px;
+    height: 300px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      background-color: #333;
+      width: 100%;
+      top: 60px;
+      left: 0;
+      text-align: center;
+    }
+  
+    .nav-links.active {
+      display: flex;
+    }
+  
+    .nav-links li {
+      margin: 0;
+      padding: 10px;
+    }
+  
+    .dropdown-content {
+      display: block;
+      top: 100%;
+      left: 0;
+    }
+  }
+  .slider {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .slider-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+    flex: 0 0 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .slide img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .slide-info {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+  }
+  
+  .slide-info h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .slide-info p {
+    margin: 10px 0;
+  }
+  
+  .slide-info a {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+  }
+  
+  
